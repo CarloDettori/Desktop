@@ -2,7 +2,6 @@ const width = document.getElementById('inputWidth').value;
 const height = document.getElementById('inputHeight').value;
 
 function clickCells() {
-     // on color selection return color:
      const colorPicker = document.getElementById("colorPicker");
      const cells = document.getElementsByClassName('cell');
      for (let i = 0; i < cells.length; i++) {
