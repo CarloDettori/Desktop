@@ -38,5 +38,4 @@ submitt.addEventListener('click', function () {
     };
 
 
-document.getElementById('sizePicker').onsubmit = function () {
-    Submission();
+
